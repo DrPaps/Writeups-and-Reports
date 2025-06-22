@@ -1,6 +1,8 @@
-Link: https://tryhackme.com/room/smaggrotto
-IP Address: 10.10.125.199
-Date: June 22, 2025
+# Smag Grotto THM Writeup - Pavan Pavithran
+
+- Link: https://tryhackme.com/room/smaggrotto
+- IP Address: 10.10.125.199
+- Date: June 22, 2025
 
 Nmap Scan:
 ```┌──(kali㉿kali)-[~/Downloads/THM/smaggrotto]
