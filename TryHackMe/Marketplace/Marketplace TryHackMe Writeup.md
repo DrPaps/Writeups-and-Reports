@@ -325,9 +325,11 @@ linpeas.sh          100%[===================>] 820.45K   388KB/s    in 2.1s
 ```
 
 -> Looks like michael is part of the docker group
+
 ![](attachments/Pasted%20image%2020250623174730.png)
 
--> Once again using gtfobins,
+-> Once again using gtfobins
+
 ![](attachments/Pasted%20image%2020250623174853.png)
 
 ```
