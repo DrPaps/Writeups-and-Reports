@@ -1,4 +1,4 @@
-# UA High School TryHackMe Writeup
+# U.A. High School - TryHackMe Writeup
 
 - Link: https://tryhackme.com/room/yueiua
 - IP Address: 10.10.119.101
